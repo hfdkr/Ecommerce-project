@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Ecommerce</title>
     <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -20,8 +20,8 @@
             --color-neutral-black:#5C5F6A;
             --color-neutral:#E9E9EB;
           /* fonts */
-            --font-barlow: "Manrope", sans-serif;
-            --font-fraunces: "Inter", sans-serif;
+            --font-Manrope: "Manrope", sans-serif;
+            --font-Inter: "Inter", sans-serif;
         }
     </style>
 </head>
@@ -103,12 +103,12 @@
                                         — Size: M
                                     </p>
                                 </div>
-                                <div class="font-bold text-dark-blue">$75.00</div>
+                                <div class="text-[14px] font-Inter text-dark-blue font-medium">$75.00</div>
                                 <div class="flex items-center border border-gray-200 rounded-lg p-1 bg-white">
                                     <button class="px-3 py-1 hover:bg-gray-100 rounded text-gray-500">
                                         -
                                     </button>
-                                    <span class="px-4 font-medium">1</span>
+                                    <span class="px-4 font-medium font-Inter">1</span>
                                     <button class="px-3 py-1 hover:bg-gray-100 rounded text-gray-500">
                                         +
                                     </button>
@@ -137,12 +137,12 @@
                                         — Size: M
                                     </p>
                                 </div>
-                                <div class="font-bold text-dark-blue">$22.00</div>
+                                <div class="text-[14px] text-dark-blue font-medium font-Inter">$22.00</div>
                                 <div class="flex items-center border border-gray-200 rounded-lg p-1 bg-white">
                                     <button class="px-3 py-1 hover:bg-gray-100 rounded text-gray-500">
                                         -
                                     </button>
-                                    <span class="px-4 font-medium">1</span>
+                                    <span class="px-4 font-medium font-Inter">1</span>
                                     <button class="px-3 py-1 hover:bg-gray-100 rounded text-gray-500">
                                         +
                                     </button>
@@ -157,32 +157,31 @@
                             </div>
                         </div>
                     </div>
-
                     <aside
                         class="w-[341px] h-[430px] border border-neutral-white radius-[12px] p-8 bg-white">
                         <h2 class="text-lg font-bold text-dark-blue mb-8">Order Summary</h2>
                         <div class="space-y-4 text-neutral-black">
                             <div class="flex justify-between">
-                                <span>Subtotal</span>
-                                <span class="font-bold text-dark-blue">$90.00</span>
+                                <span class="text-[14px] font-medium font-Inter text-neutral-black">Subtotal</span>
+                                <span class="text-[14px] text-dark-blue font-medium font-Inter">$90.00</span>
                             </div>
                             <div class="flex justify-between">
-                                <span>Shipping:</span>
-                                <span>Free</span>
+                                <span class="text-[14px] font-medium font-Inter text-neutral-black">Shipping:</span>
+                                <span class="text-[14px] text-dark-blue font-medium font-Inter">Free</span>
                             </div>
                             <div class="flex justify-between">
                                 <span>Tax:</span>
-                                <span class="font-bold text-dark-blue">$3.00</span>
+                                <span class="text-[14px] text-dark-blue font-medium font-Inter">$3.00</span>
                             </div>
                             <hr class="border-gray-100 my-6" />
                             <div class="flex justify-between text-lg font-bold text-dark-blue">
-                                <span>Total</span>
-                                <span>$100.00</span>
+                                <span class="text-[14px] text-dark-blue font-medium font-Inter">Total</span>
+                                <span class="text-[14px] text-dark-blue font-medium font-Inter">$100.00</span>
                             </div>
                         </div>
 
                         <button
-                            class="w-full bg-dark-blue text-white py-4 rounded-lg mt-8 font-semibold hover:bg-opacity-90 transition-all">
+                            class="w-full text-[14px] bg-dark-blue text-white py-[10px] rounded-[4px] mt-[32px] font-medium font-Inter">
                             Checkout
                         </button>
 
@@ -198,7 +197,7 @@
         </section>
     </main>
     <footer class="bg-gray-50">
-  <div class="w-[1200px] mx-auto py-[80px]">
+  <div class="max-w-[1200px] mx-auto py-[80px] px-6">
 
     <!-- TOP -->
     <div class="flex justify-between">
@@ -208,12 +207,13 @@
      
         <!-- Logo -->
         <div class="flex items-center gap-3">
-          <div class="w-10 h-10 border rounded-lg"><img src="./images/Logomark copy.png" alt="logo-2"></div>
-          <!-- your logo image here -->
-          <h3 class="text-lg font-semibold">Ecommerce</h3>
+          <div class="flex items-center gap-[12px]">
+            <img src="./images/Logomark copy.png" alt="logo-2">
+            <h1 class="text-[20px] text-Manrope font-extrabold text-dark-blue">Ecommerce</h1>
+            </div>
         </div>
 
-        <p class="text-sm text-gray-500 mt-6 leading-6">
+        <p class="text-[14px] font-inter text-neutral-black max-w-[200px] leading-[175%] mt-[12px]">
           DevCut is a YouTube channel for practical project-based learning.
         </p>
 
@@ -268,9 +268,9 @@
           ACCEPTED PAYMENTS
         </p>
 
-        <div class="flex items-center gap-4 mt-6">
+        <div class="flex items-center text-center gap-4 mt-6">
           <div class="w-10 h-6 bg-neutral-white"><img src="./images/Vector copy.png" alt="mastercard"></div>
-          <div class="w-12 h-6"><img src="./images/Amex.png" alt="amex"></div>
+          <div class="w-12 h-6"><img src="./images/Vector copy 2.png" alt="amex"></div>
           <div class="w-12 h-6"><img src="./images/Visa.png" alt="visa"></div>
           <!-- your payment images -->
         </div>
@@ -279,11 +279,11 @@
     </div>
 
     <!-- Divider -->
-    <div class="h-px bg-gray-200 my-[60px]"></div>
+    <div class="bg-neutral-black my-[102px]"></div>
 
     <!-- Bottom -->
-    <p class="text-center text-sm text-gray-500">
-      © 2023 DevCut. All rights reserved.
+    <p class="text-center text-[14px] leading-[175%] text-neutral-black">
+      &copy; 2023 DevCut. All rights reserved.
     </p>
 
   </div>

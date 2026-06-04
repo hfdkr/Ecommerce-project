@@ -89,10 +89,58 @@ project/
 - Accepted Payment Methods
 - Social Media Icons
 
-## 📷 Preview
+##  Preview
 
 Add screenshots here:
 
 ```md
 ![Preview](./images/preview.png)
 ```
+
+
+##  Installation
+
+1. Clone the repository
+
+```bash
+git clone https://github.com/your-username/ecommerce-cart-page.git
+```
+
+2. Open the project folder
+
+```bash
+cd ecommerce-cart-page
+```
+
+3. Run the project
+
+Simply open:
+
+```bash
+index.html
+```
+
+in your browser.
+
+##  Future Improvements
+
+- Add JavaScript functionality
+- Dynamic cart updates
+- Product API integration
+- User authentication
+- Checkout system
+- Mobile menu support
+
+##  Author
+
+**Hafid kr**
+
+- Full-Stack Developer Student
+- HTML, CSS, Tailwind CSS
+- JavaScript
+- Python
+- MySQL
+
+---
+
+ ------  > If you like this project, give it a star on GitHub.

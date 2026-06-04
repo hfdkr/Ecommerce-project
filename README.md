@@ -55,3 +55,44 @@ project/
 └── README.md
 ```
 
+##  Sections
+
+### Header
+
+- Logo
+- Navigation Menu
+- Categories Dropdown
+- Search Bar
+- User & Cart Icons
+
+### Cart
+
+- Product Image
+- Product Information
+- Product Price
+- Quantity Selector
+- Remove Product Button
+
+### Order Summary
+
+- Subtotal
+- Shipping
+- Tax
+- Total Price
+- Checkout Button
+
+### Footer
+
+- Company Information
+- Support Links
+- Shop Links
+- Accepted Payment Methods
+- Social Media Icons
+
+## 📷 Preview
+
+Add screenshots here:
+
+```md
+![Preview](./images/preview.png)
+```

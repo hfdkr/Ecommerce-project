@@ -109,7 +109,7 @@ git clone https://github.com/hfdkr/Ecommerce-project.git
 2. Open the project folder
 
 ```bash
-cd ecommerce-cart-page
+cd Ecommerce-project
 ```
 
 3. Run the project

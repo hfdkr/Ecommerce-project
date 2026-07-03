@@ -378,7 +378,6 @@
         const toggleIcon = document.getElementById('theme-toggle-icon');
 
         function syncIcon() {
-            // Show the "switch to dark" icon while in light mode, and vice versa.
             const isDark = html.classList.contains('dark');
             toggleIcon.src = isDark ? './images/lightMode.png' : './images/darkMode.png';
             toggleBtn.setAttribute('aria-label', isDark ? 'Switch to light mode' : 'Switch to dark mode');

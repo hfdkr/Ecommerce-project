@@ -63,12 +63,19 @@
             <div class="flex items-center gap-[32px]">
                 <img src="./images/Icon.png" alt="icon-1">
                 <img src="./images/User.png" alt="icon-1">
+                <button onclick="darkMode()"
+                    class="button1 font-medium text-[14px] hover:text-black hover:cursor-pointer"><img src="./images/darkMode.png" alt=""></button>
+                <button onclick="lightMode()"
+                  style="display: none;"
+                    class="button2 font-medium text-[14px] hover:text-white hover:cursor-pointer"><img src="./images/lightMode.png" alt="">
+                    </button>
+
             </div>
         </div>
     </header>
     <main class="">
-        <section class="space-y-18 container my-[0px] mx-auto">
-            <div class="bg-neutral-white py-[35px] px-[162px]">
+        <section class="section1 space-y-18 container my-[0px] mx-auto">
+            <div class="py-[35px] px-[162px]">
                 <h2 class="text-[24px] font-bold font-inter">
                     Cart
                 </h2>
@@ -83,7 +90,7 @@
                 <div class="flex flex-row gap-12 items-start">
                     <div class="flex-1 w-full">
                         <h2 class="font-Inter text-[16px] font-semibold leading-[100%] mb-[18px] text-dark-blue">Your cart</h2>
-                        <hr class="border-neutral mb-5"/>
+                        <hr class="border-neutral mb-5" />
 
                         <div class="space-y-10">
                             <div class="flex flex-row items-center gap-6">
@@ -125,11 +132,11 @@
                             <div class="flex flex-row items-center gap-6">
                                 <div
                                     class="w-24 h-24 bg-neutral-white rounded-md flex items-center justify-center overflow-hidden">
-                                    <img src="./images/Product image copy.png" alt="White T-shirt"
-                                        class="" />
+                                    <img src="./images/Product image copy.png" alt="White T-shirt" class="" />
                                 </div>
                                 <div class="flex-1">
-                                    <h3 class="font-Inter text-[14px] font-medium text-dark-blue">Essential Neutrals</h3>
+                                    <h3 class="font-Inter text-[14px] font-medium text-dark-blue">Essential Neutrals
+                                    </h3>
                                     <p class="text-neutral-black text-sm mt-1">
                                         Color:
                                         <span
@@ -157,8 +164,7 @@
                             </div>
                         </div>
                     </div>
-                    <aside
-                        class="w-[341px] h-[430px] border border-neutral-white radius-[12px] p-8 bg-white">
+                    <aside class="w-[341px] h-[430px] border border-neutral-white radius-[12px] p-8 bg-white">
                         <h2 class="text-lg font-bold text-dark-blue mb-8">Order Summary</h2>
                         <div class="space-y-4 text-neutral-black">
                             <div class="flex justify-between">
@@ -197,98 +203,118 @@
         </section>
     </main>
     <footer class="bg-gray-50">
-  <div class="max-w-[1200px] mx-auto py-[80px] px-6">
+        <div class="max-w-[1200px] mx-auto py-[80px] px-6">
 
-    <!-- TOP -->
-    <div class="flex justify-between">
+            <!-- TOP -->
+            <div class="flex justify-between">
 
-      <!-- LEFT -->
-      <div class="w-[320px]">
-     
-        <!-- Logo -->
-        <div class="flex items-center gap-3">
-          <div class="flex items-center gap-[12px]">
-            <img src="./images/Logomark copy.png" alt="logo-2">
-            <h1 class="text-[20px] text-Manrope font-extrabold text-dark-blue">Ecommerce</h1>
+                <!-- LEFT -->
+                <div class="w-[320px]">
+
+                    <!-- Logo -->
+                    <div class="flex items-center gap-3">
+                        <div class="flex items-center gap-[12px]">
+                            <img src="./images/Logomark copy.png" alt="logo-2">
+                            <h1 class="text-[20px] text-Manrope font-extrabold text-dark-blue">Ecommerce</h1>
+                        </div>
+                    </div>
+
+                    <p class="text-[14px] font-inter text-neutral-black max-w-[200px] leading-[175%] mt-[12px]">
+                        DevCut is a YouTube channel for practical project-based learning.
+                    </p>
+
+                    <!-- Social -->
+                    <div class="flex gap-5 mt-6">
+                        <div class="w-[40px] h-[20px]"><img src="./images/Github.png" alt="github"></div>
+                        <div class="w-[40px] h-[20px]"><img src="./images/Instagram.png" alt="instagramme"></div>
+                        <div class="w-[40px] h-[20px]"><img src="./images/Youtube.png" alt="youtub"></div>
+                        <!-- your social images -->
+                    </div>
+                </div>
+
+                <!-- SUPPORT -->
+                <div class="w-[160px]">
+                    <p class="text-xs font-semibold tracking-widest text-gray-500">
+                        SUPPORT
+                    </p>
+                    <ul class="mt-6 space-y-4 text-sm text-gray-600">
+                        <li>FAQ</li>
+                        <li>Terms of use</li>
+                        <li>Privacy Policy</li>
+                    </ul>
+                </div>
+
+                <!-- COMPANY -->
+                <div class="w-[160px]">
+                    <p class="text-xs font-semibold tracking-widest text-gray-500">
+                        COMPANY
+                    </p>
+                    <ul class="mt-6 space-y-4 text-sm text-gray-600">
+                        <li>About us</li>
+                        <li>Contact</li>
+                        <li>Careers</li>
+                    </ul>
+                </div>
+
+                <!-- SHOP -->
+                <div class="w-[160px]">
+                    <p class="text-xs font-semibold tracking-widest text-gray-500">
+                        SHOP
+                    </p>
+                    <ul class="mt-6 space-y-4 text-sm text-gray-600">
+                        <li>My Account</li>
+                        <li>Checkout</li>
+                        <li>Cart</li>
+                    </ul>
+                </div>
+
+                <!-- PAYMENTS -->
+                <div class="w-[200px]">
+                    <p class="text-xs font-semibold tracking-widest text-gray-500">
+                        ACCEPTED PAYMENTS
+                    </p>
+
+                    <div class="flex items-center text-center gap-4 mt-6">
+                        <div class="w-10 h-6 bg-neutral-white"><img src="./images/Vector copy.png" alt="mastercard">
+                        </div>
+                        <div class="w-12 h-6"><img src="./images/Vector copy 2.png" alt="amex"></div>
+                        <div class="w-12 h-6"><img src="./images/Visa.png" alt="visa"></div>
+                        <!-- your payment images -->
+                    </div>
+                </div>
+
             </div>
+
+            <!-- Divider -->
+            <div class="bg-neutral-black my-[102px]"></div>
+
+            <!-- Bottom -->
+            <p class="text-center text-[14px] leading-[175%] text-neutral-black">
+                &copy; 2023 DevCut. All rights reserved.
+            </p>
+
         </div>
+    </footer>
 
-        <p class="text-[14px] font-inter text-neutral-black max-w-[200px] leading-[175%] mt-[12px]">
-          DevCut is a YouTube channel for practical project-based learning.
-        </p>
+    <script>
+        const button1 = document.getElementsByClassName("button1")[0];
+        const button2 = document.getElementsByClassName("button2")[0];
+        const section1=button1.getElementsByClassName("section1")[0];
+        function lightMode() {
+            document.body.style.backgroundColor = "white";
+            button1.style.display = "inline-block";
+            button2.style.display = "none";
+            section1.style.backgroundColor = "bg-neutral-white";
+        }
 
-        <!-- Social -->
-        <div class="flex gap-5 mt-6">
-          <div class="w-[40px] h-[20px]"><img src="./images/Github.png" alt="github"></div>
-          <div class="w-[40px] h-[20px]"><img src="./images/Instagram.png" alt="instagramme"></div>
-          <div class="w-[40px] h-[20px]"><img src="./images/Youtube.png" alt="youtub"></div>
-          <!-- your social images -->
-        </div>
-      </div>
-
-      <!-- SUPPORT -->
-      <div class="w-[160px]">
-        <p class="text-xs font-semibold tracking-widest text-gray-500">
-          SUPPORT
-        </p>
-        <ul class="mt-6 space-y-4 text-sm text-gray-600">
-          <li>FAQ</li>
-          <li>Terms of use</li>
-          <li>Privacy Policy</li>
-        </ul>
-      </div>
-
-      <!-- COMPANY -->
-      <div class="w-[160px]">
-        <p class="text-xs font-semibold tracking-widest text-gray-500">
-          COMPANY
-        </p>
-        <ul class="mt-6 space-y-4 text-sm text-gray-600">
-          <li>About us</li>
-          <li>Contact</li>
-          <li>Careers</li>
-        </ul>
-      </div>
-
-      <!-- SHOP -->
-      <div class="w-[160px]">
-        <p class="text-xs font-semibold tracking-widest text-gray-500">
-          SHOP
-        </p>
-        <ul class="mt-6 space-y-4 text-sm text-gray-600">
-          <li>My Account</li>
-          <li>Checkout</li>
-          <li>Cart</li>
-        </ul>
-      </div>
-
-      <!-- PAYMENTS -->
-      <div class="w-[200px]">
-        <p class="text-xs font-semibold tracking-widest text-gray-500">
-          ACCEPTED PAYMENTS
-        </p>
-
-        <div class="flex items-center text-center gap-4 mt-6">
-          <div class="w-10 h-6 bg-neutral-white"><img src="./images/Vector copy.png" alt="mastercard"></div>
-          <div class="w-12 h-6"><img src="./images/Vector copy 2.png" alt="amex"></div>
-          <div class="w-12 h-6"><img src="./images/Visa.png" alt="visa"></div>
-          <!-- your payment images -->
-        </div>
-      </div>
-
-    </div>
-
-    <!-- Divider -->
-    <div class="bg-neutral-black my-[102px]"></div>
-
-    <!-- Bottom -->
-    <p class="text-center text-[14px] leading-[175%] text-neutral-black">
-      &copy; 2023 DevCut. All rights reserved.
-    </p>
-
-  </div>
-</footer>
-
+        function darkMode() {
+            document.body.style.backgroundColor = "gray";
+            button1.style.display = "none";
+            button2.style.display = "inline-block";
+            section1.classList.
+            section1.style.border = "3px solid black";
+        }
+    </script>
 </body>
 
-</html>
+</htm

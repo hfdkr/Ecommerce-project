@@ -350,13 +350,13 @@
                         PAYMENTS</p>
                     <div class="flex items-center gap-3 mt-6">
                         <div class="w-11 h-8 rounded-md bg-white dark:bg-surface-dark border border-neutral dark:border-border-dark flex items-center justify-center">
-                            <img src="./images/Vector copy.png" alt="mastercard" class="w-6">
+                            <img src="./images/Vector.png" alt="mastercard" class="w-6">
                         </div>
                         <div class="w-11 h-8 rounded-md bg-white dark:bg-surface-dark border border-neutral dark:border-border-dark flex items-center justify-center">
-                            <img src="./images/Amex.png" alt="amex" class="w-6">
+                            <img src="./images/Vector copy 2.png" alt="amex" class="w-6">
                         </div>
                         <div class="w-11 h-8 rounded-md bg-white dark:bg-surface-dark border border-neutral dark:border-border-dark flex items-center justify-center">
-                            <img src="./images/Visa.png" alt="visa" class="w-6">
+                            <img src="./images/Amex.png" alt="visa" class="w-6">
                         </div>
                     </div>
                 </div>
@@ -378,6 +378,7 @@
         const toggleIcon = document.getElementById('theme-toggle-icon');
 
         function syncIcon() {
+            // Show the "switch to dark" icon while in light mode, and vice versa.
             const isDark = html.classList.contains('dark');
             toggleIcon.src = isDark ? './images/lightMode.png' : './images/darkMode.png';
             toggleBtn.setAttribute('aria-label', isDark ? 'Switch to light mode' : 'Switch to dark mode');

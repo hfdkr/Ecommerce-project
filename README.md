@@ -94,7 +94,7 @@ project/
 Add screenshots here:
 
 ```md
-![Preview](./images/image.png)
+![Preview](images/image.png)
 ```
 
 
